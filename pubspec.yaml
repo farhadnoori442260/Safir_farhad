@@ -1,0 +1,33 @@
+name: safir_app
+description: "اپلیکیشن چندمنظوره حمل و نقل سفیر"
+
+# جلوگیری از انتشار ناخواسته در pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # آیکون‌های پیش‌فرض سیستم‌عامل iOS (در صورت نیاز)
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # قوانین استاندارد کدنویسی فلاتر برای بهینه‌سازی کدهای شما
+  flutter_lints: ^3.0.0
+
+flutter:
+  # فعال‌سازی آیکون‌ها و ابزارهای متریال دیزاین (مانند Icons.local_taxi و ...)
+  uses-material-design: true
+
+  # در آینده اگر خواستید فونت اختصاصی (مثل IRANSans یا فونت‌های دری) 
+  # یا لوگوی اپلیکیشن را اضافه کنید، از این بخش اقدام کنید:
+  # assets:
+  #   - assets/images/logo.png
